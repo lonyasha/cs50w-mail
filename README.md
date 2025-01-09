@@ -44,12 +44,13 @@ To run this project locally, follow these steps:
 3. **Make migrations for the mail app:**:
    ```bash
    python manage.py makemigrations mail
-7. **Apply the migrations to set up the database**:
+4. **Apply the migrations to set up the database**:
    ```bash
    python manage.py migrate
-8. **Run the server**:
+5. **Run the server**:
    ```bash
    python manage.py runserver
+6. **Access the application**: Open your browser and navigate to http://127.0.0.1:8000
 
 ### Key Points:
 - All installation and setup instructions are placed in properly formatted code blocks.
